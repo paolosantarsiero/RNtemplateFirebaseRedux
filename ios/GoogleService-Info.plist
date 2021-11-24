@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>461636432616-j9ms85o4jrmd3bkb6n0chqrue9qvs2mi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.461636432616-j9ms85o4jrmd3bkb6n0chqrue9qvs2mi</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>461636432616-gkbeccovjaeg916rihg47dpcpic30dot.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDF2zwqR7Nq0-b96zH993kg9Zy1-_TLvnM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>461636432616</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>it.softmining.projects.immersiveact.frontend</string>
+	<key>PROJECT_ID</key>
+	<string>wit-what-is-that-94385668</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wit-what-is-that-94385668.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:461636432616:ios:9c2f7ca8eabdd59d364f5d</string>
+	<key>DATABASE_URL</key>
+	<string>https://wit-what-is-that-94385668.firebaseio.com</string>
+</dict>
+</plist>

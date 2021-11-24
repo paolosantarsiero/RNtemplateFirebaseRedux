@@ -1,0 +1,163 @@
+{
+  "project_info": {
+    "project_number": "461636432616",
+    "firebase_url": "https://wit-what-is-that-94385668.firebaseio.com",
+    "project_id": "wit-what-is-that-94385668",
+    "storage_bucket": "wit-what-is-that-94385668.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461636432616:android:dfa21f23a7b10935364f5d",
+        "android_client_info": {
+          "package_name": "it.softmining.projects.covid19.savelifestyle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHqjQcyh0Sl-_wZNZDksQAaa5WywpYWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "461636432616-3qla13nlkods0o1e48rr3pi7j5ptas8v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.wit.echoes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461636432616:android:d4bd7084c35e35bb364f5d",
+        "android_client_info": {
+          "package_name": "it.softmining.projects.immersiveact.frontend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461636432616-gkbeccovjaeg916rihg47dpcpic30dot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "it.softmining.projects.immersiveact.frontend",
+            "certificate_hash": "692640b1c3747471eccbe8363102f8e35fea4f76"
+          }
+        },
+        {
+          "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHqjQcyh0Sl-_wZNZDksQAaa5WywpYWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "461636432616-3qla13nlkods0o1e48rr3pi7j5ptas8v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.wit.echoes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461636432616:android:c7a6f2667dadb802364f5d",
+        "android_client_info": {
+          "package_name": "it.wit.echoes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHqjQcyh0Sl-_wZNZDksQAaa5WywpYWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "461636432616-3qla13nlkods0o1e48rr3pi7j5ptas8v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.wit.echoes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461636432616:android:ce5ecd073e985550364f5d",
+        "android_client_info": {
+          "package_name": "it.wit.innovact"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXHqjQcyh0Sl-_wZNZDksQAaa5WywpYWY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461636432616-00fq3nad5bvpn4qpo28f7juk7jokc29t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "461636432616-3qla13nlkods0o1e48rr3pi7j5ptas8v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "it.wit.echoes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
