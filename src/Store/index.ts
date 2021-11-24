@@ -1,23 +1,13 @@
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { combineReducers, Middleware } from 'redux'
-import {
-  persistReducer,
-  persistStore,
-  FLUSH,
-  REHYDRATE,
-  PAUSE,
-  PERSIST,
-  PURGE,
-  REGISTER,
-} from 'redux-persist'
+import { firebaseReducer } from 'react-redux-firebase'
+import { firestoreReducer } from 'redux-firestore'
+import { persistReducer, persistStore } from 'redux-persist'
 import { configureStore } from '@reduxjs/toolkit'
 import { setupListeners } from '@reduxjs/toolkit/query'
-
 import { api } from '@/Services/api'
 import * as modules from '@/Services/modules'
 import theme from './Theme'
-import { firebaseReducer } from 'react-redux-firebase'
-import { firestoreReducer } from 'redux-firestore'
 
 const reducers = combineReducers({
   firebase: firebaseReducer,
@@ -44,9 +34,7 @@ const store = configureStore({
   reducer: persistedReducer,
   middleware: getDefaultMiddleware => {
     const middlewares = getDefaultMiddleware({
-      serializableCheck: {
-        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
-      },
+      serializableCheck: false,
     }).concat(api.middleware as Middleware)
 
     if (__DEV__ && !process.env.JEST_WORKER_ID) {

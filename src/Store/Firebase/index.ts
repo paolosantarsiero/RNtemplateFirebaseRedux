@@ -18,12 +18,16 @@ export interface Route {
   }
   image?: string
   mapPreview?: string
+  timestamp?: {
+    seconds: number
+    nanoseconds: number
+  }
 }
 
 // Optional: You can define the schema of your Firebase Redux store.
 // This will give you type-checking for state.firebase.data.todos and state.firebase.ordered.todos
 interface Schema {
-  routesTest: [Route]
+  routes: [Route]
 }
 
 export interface FirebaseState {

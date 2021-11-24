@@ -8,7 +8,7 @@ import { FirebaseState } from '@/Store/Firebase'
 const RouteDetailsContainer = () => {
   const { Gutters, Layout } = useTheme()
   const route = useSelector(
-    (state: FirebaseState) => state.firestore.ordered.routesTest[0],
+    (state: FirebaseState) => state.firestore.ordered.routes[0],
   )
 
   return (

@@ -12,9 +12,9 @@ import { FirebaseState } from '@/Store/Firebase'
 const ListContainer = () => {
   const { Gutters, Layout } = useTheme()
 
-  useFirestoreConnect([{ collection: 'routesTest' }])
+  useFirestoreConnect([{ collection: 'routes' }])
   const routes = useSelector(
-    (state: FirebaseState) => state.firestore.ordered.routesTest,
+    (state: FirebaseState) => state.firestore.ordered.routes,
   )
 
   return (
