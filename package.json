@@ -4,5 +4,8 @@
     "description": "React Native Template Firebase with Redux",
     "repository": "git@github.com:paolosantarsiero/RNtemplateFirebaseRedux.git",
     "author": "Paolo Santarsiero <paolosantarsiero9@gmail.com>",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "ora": "^6.1.2"
+    }
 }
