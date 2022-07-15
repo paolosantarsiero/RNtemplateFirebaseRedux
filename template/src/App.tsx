@@ -8,6 +8,7 @@ import './Translations'
 import { ReactReduxFirebaseProvider } from 'react-redux-firebase'
 import { createFirestoreInstance } from 'redux-firestore'
 import firebaseApp from '@react-native-firebase/app'
+import { Provider as PaperProvider } from 'react-native-paper'
 import '@react-native-firebase/auth'
 import '@react-native-firebase/firestore'
 
@@ -34,7 +35,9 @@ const App = () => (
      */}
     <PersistGate loading={null} persistor={persistor}>
       <ReactReduxFirebaseProvider {...rrfProps}>
-        <ApplicationNavigator />
+        <PaperProvider>
+          <ApplicationNavigator />
+        </PaperProvider>
       </ReactReduxFirebaseProvider>
     </PersistGate>
   </Provider>

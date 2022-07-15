@@ -1,5 +1,6 @@
 import React from 'react'
-import { Button, Text, View } from 'react-native'
+import { Text, View } from 'react-native'
+import { Button } from 'react-native-paper'
 import { useTheme } from '@/Hooks'
 import { FlatList } from 'react-native-gesture-handler'
 import { SafeAreaView } from 'react-native-safe-area-context'
@@ -8,8 +9,10 @@ import { switchTab } from '@/Navigators/utils'
 import { useSelector } from 'react-redux'
 import { useFirestoreConnect } from 'react-redux-firebase'
 import { FirebaseState } from '@/Store/Firebase'
+import { useTranslation } from 'react-i18next'
 
 const ListContainer = () => {
+  const { t } = useTranslation()
   const { Gutters, Layout } = useTheme()
 
   useFirestoreConnect([{ collection: 'routes' }])
@@ -21,7 +24,6 @@ const ListContainer = () => {
     <SafeAreaView style={Layout.fill}>
       <View>
         <Text>Header List</Text>
-        <Button title="Mappa" onPress={() => switchTab('Map')} />
       </View>
       <View style={[Layout.columnVCenter, Gutters.smallHPadding]}>
         <FlatList
@@ -29,6 +31,13 @@ const ListContainer = () => {
           renderItem={({ item }) => <Route item={item} />}
         />
       </View>
+      <Button
+        style={Gutters.largeHMargin}
+        mode="contained"
+        onPress={() => switchTab('Map')}
+      >
+        {t('Map')}
+      </Button>
     </SafeAreaView>
   )
 }
