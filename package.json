@@ -1,11 +1,20 @@
 {
-    "name": "react-native-firebase-redux",
-    "version": "0.0.1",
-    "description": "React Native Template Firebase with Redux",
-    "repository": "git@github.com:paolosantarsiero/RNtemplateFirebaseRedux.git",
-    "author": "Paolo Santarsiero <paolosantarsiero9@gmail.com>",
-    "license": "MIT",
-    "dependencies": {
-        "ora": "^6.1.2"
-    }
+  "name": "@paolosantarsiero/rntemplatefirebaseredux",
+  "version": "1.0.0",
+  "description": "This template is a fork of [@thecodingmachine/react-native-boilerplate](https://github.com/thecodingmachine/react-native-boilerplate). ## Requirements",
+  "main": "script.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paolosantarsiero/RNtemplateFirebaseRedux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paolosantarsiero/RNtemplateFirebaseRedux/issues"
+  },
+  "homepage": "https://github.com/paolosantarsiero/RNtemplateFirebaseRedux#readme"
 }
