@@ -1,4 +1,4 @@
-# RNtemplateFirebaseRedux
+# React Native Template with FirebaseRedux
 
 ## Requirements
 
